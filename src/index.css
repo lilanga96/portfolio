@@ -1,0 +1,31 @@
+ body{
+  background-color: #242323;
+ }
+ 
+ .about-container{
+  color: whitesmoke;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 8rem; 
+  
+  
+
+} 
+.highlight{
+  color: rgb(211, 4, 194);
+}
+
+img{
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  position: relative;
+  right: 5rem;
+  bottom: 2rem;
+  filter: drop-shadow(1px 1px 20px rgb(211, 4, 194)) ;
+}
+
+.nav-link:active{
+  color: rgb(211, 4, 194) ;
+}
