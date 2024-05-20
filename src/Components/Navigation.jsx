@@ -1,51 +1,39 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import './Navbar.css';
+import { Link } from 'react-router-dom';
 
+const Navigation = () => {
 
-
-function Navigation() {
 
   return (
-    <div>
-
-<nav className="navbar navbar-expand-lg">
-  <div className="container-fluid">
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul className="navbar-nav">
-        <Link to={'/'} class="nav-item">
-          <h4 className="nav-link" >Home</h4>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+            <Link to={'/'} class="nav-item">
+          <li className="nav-link" >Home</li>
         </Link>
-        <Link to={'/about'} class="nav-item">
-          <h4 className="nav-link" >About</h4>
-        </Link>
-        <Link to={'/skills'} class="nav-item">
-          <h4 className="nav-link" >Skills</h4>
-        </Link>
-        <Link to={'/projects'} class="nav-item">
-          <h4 className="nav-link">Projects</h4>
-        </Link>
+         <Link to={'/about'} class="nav-item">
+           <li className="nav-link" >About</li>
+         </Link>
+         <Link to={'/skills'} class="nav-item">
+           <li className="nav-link" >Skills</li>
+         </Link>
+         <Link to={'/projects'} class="nav-item">
+           <li className="nav-link">Projects</li>
+         </Link>
         <Link to={'/contacts'} class="nav-item">
-          <h4 className="nav-link">Contacs</h4>
-        </Link>
-      </ul>
-    </div>
-    </div>
-  
-    <h4 className="navbar-brand">
-    
-    <span className='highlight1'>S</span> <span className='highlight'>D</span>
-    
-    </h4>
+          <li className="nav-link">Contacs</li>
+         </Link>
 
+            </ul>
+        </div>
+    </nav>
+  );
+};
 
-</nav>
-  </div>
+export default Navigation;
 
-  
-  )
-}
-
-export default Navigation
