@@ -5,6 +5,7 @@ import Profile from './Components/ProfileInfo';
 import Skills from './Components/Skills';
 import { Route, Routes } from 'react-router-dom';
 import Contacts from './Components/Contacts';
+import ProjectsList from './Components/ProjectLists';
 
 function App() {
     return (
@@ -15,7 +16,7 @@ function App() {
            <Route path='/' element ={<Profile />} />
            <Route path='/skills' element ={<Skills />} />
            <Route path='/contacts' element ={<Contacts />} />
-            
+            <Route path='/projects' element = { <ProjectsList />} />
           </Routes>
             
             
