@@ -1,0 +1,36 @@
+input[type=text], input[type=email]{
+    border-color:rgb(211, 4, 194) ;
+}
+
+.form-control{
+    border-color:rgb(211, 4, 194) ;
+}
+
+.btn{
+    background-color:rgb(211, 4, 194) ;
+    color: white;
+    border: none;
+}
+
+.btn:hover{
+    border: 1px solid rgb(211, 4, 194);
+    background-color: transparent;
+    color: black;
+}
+
+ 
+
+@media (min-width: 1000px)and (max-width: 1500px) {
+
+     .container{
+        position: relative;
+        bottom: 2rem;
+    } 
+
+    form{
+        height: 40px;
+        width: 450px;
+    }
+   
+    
+} 
