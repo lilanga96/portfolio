@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1000px;
+    width: 100%;
+    
+
+}
+
+.card {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    border-color: rgb(211, 4, 194);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    justify-items: center;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.card p {
+    color: #666;
+}
+
+@media (min-width: 1300px)and (max-width: 1500px) {
+    .grid-container {
+        
+        position: relative;
+        top: 4rem;
+        left: 10rem;
+    }
+    .skills-heading{
+        text-align: center;
+    }
+
+   
+    
+}
+
+ @media (min-width: 900px)and (max-width: 1300px) {
+        .grid-container {
+            position: relative;
+            top: 4rem;
+            left: 3rem;
+        }
+        .skills-heading{
+            text-align: center;
+        }
+    }

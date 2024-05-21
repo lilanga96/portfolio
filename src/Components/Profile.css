@@ -27,6 +27,23 @@
     filter: drop-shadow(0.5px 0.5px 5px rgb(211, 4, 194));
 }
 
+.resume{
+    outline: none;
+    border-radius: 5px;
+}
+
+
+.view-cv{
+    background-color: rgb(211, 4, 194);
+    border: none;
+    margin-top: 5px;
+}
+
+.view-cv:hover{
+    background-color: transparent;
+    border-color:rgb(211, 4, 194) ;
+}
+
 .profile-info {
     max-width: 600px;
 }
@@ -54,9 +71,11 @@
         }
      }
 
-@media (min-width: 600px) {
+@media (min-width: 600px)and (max-width: 1500px) {
     .profile-container {
         flex-direction: row;
         text-align: left;
+        position: relative;
+        top: 7rem;
     }
 }

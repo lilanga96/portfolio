@@ -16,6 +16,11 @@ const Profile = () => {
                      <i class="ri-facebook-line"></i>
                      <i class="ri-linkedin-line"></i>
                      </div>
+                     <div>
+      <a href="/cv.pdf" target="_blank" rel="noopener noreferrer">
+        <button className='view-cv resume'>View CV</button>
+      </a>
+    </div>
                 </div>
             </div>
         </section>
