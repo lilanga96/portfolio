@@ -1,16 +1,22 @@
 
 const projectsData = [
-    {
+  {
       title: 'Project One',
       description: 'This is a description of project one.',
-      link: 'https://podcasthubb.netlify.app'
-    },
-    {
+      image:  './src/images/books2.png',
+      liveLink: 'https://podcasthubb.netlify.app',
+      githubLink: 'https://github.com/yourusername/project-one'
+  },
+  {
       title: 'Project Two',
       description: 'This is a description of project two.',
-      link: 'https://book-konnect.netlify.app'
-    },
-  ];
-  
-  export default projectsData;
+      image: './src/images/books.png', 
+      liveLink: 'https://book-konnect.netlify.app',
+      githubLink: 'https://github.com/yourusername/project-two'
+  },
+];
+
+export default projectsData
+
+
   

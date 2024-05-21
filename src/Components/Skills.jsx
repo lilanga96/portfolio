@@ -3,7 +3,7 @@ import './skill.css'
 
 function Skills() {
   return (
-    <div>
+    <div  className="animate__animated animate__slideInUp">
         <h2 className='skills-heading'>Technical Skills</h2>
         <div class="grid-container">
             

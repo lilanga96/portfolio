@@ -24,12 +24,14 @@ input[type=text], input[type=email]{
 
      .container{
         position: relative;
-        bottom: 2rem;
+        bottom: 2.5rem;
+
     } 
 
     form{
-        height: 40px;
+        height: 400px;
         width: 450px;
+
     }
    
     

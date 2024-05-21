@@ -5,8 +5,7 @@ function Contacts() {
   return (
     <div>
         <div class="container mt-5">
-        <h2>Contact Me</h2>
-        <form action="https://formsubmit.co/info@echelonrecords.co.za" method="POST">
+        <form className='animate__animated animate__slideInLeft' action="https://formsubmit.co/info@echelonrecords.co.za" method="POST">
             <div class="form-group">
                 <label for="name">Name</label>
                 <input type="text" class="form-control" id="name" placeholder="Enter your name" required />
