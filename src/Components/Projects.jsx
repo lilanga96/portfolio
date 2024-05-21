@@ -10,7 +10,6 @@ const Projects = () => {
                 <div key={index} className="project-card">
                     <h2>{project.title}</h2>
                     <img src={project.image} alt={project.title} className="project-image" />
-                    <p>{project.description}</p>
                     <div className="project-links">
                         <a href={project.liveLink} target="_blank" rel="noopener noreferrer">Live View</a>
                         <a href={project.githubLink} target="_blank" rel="noopener noreferrer">GitHub</a>

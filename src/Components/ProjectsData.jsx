@@ -1,18 +1,16 @@
 
 const projectsData = [
   {
-      title: 'Project One',
-      description: 'This is a description of project one.',
+      title: 'Podcast-app',
       image:  './src/images/books2.png',
       liveLink: 'https://podcasthubb.netlify.app',
-      githubLink: 'https://github.com/yourusername/project-one'
+      githubLink: 'https://github.com/lilanga96/podcasts'
   },
   {
-      title: 'Project Two',
-      description: 'This is a description of project two.',
+      title: 'Book-connect',
       image: './src/images/books.png', 
       liveLink: 'https://book-konnect.netlify.app',
-      githubLink: 'https://github.com/yourusername/project-two'
+      githubLink: 'https://github.com/lilanga96/Book-connect'
   },
 ];
 

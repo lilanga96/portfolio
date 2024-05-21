@@ -27,12 +27,10 @@
 .project-links a {
     margin: 0 8px;
     text-decoration: none;
-    color: #007bff;
+    color: rgb(211, 4, 194);
+
 }
 
-.project-links a:hover {
-    text-decoration: underline;
-}
 
   
 
@@ -45,6 +43,6 @@
   @media (min-width: 600px)and (max-width: 1500px){
     .projects-list{
       position: relative;
-      top: 9rem;
+      top:3rem
     }
   }
