@@ -20,7 +20,7 @@ const Profile = () => {
         <a href="https://web.facebook.com/siphesihle.dyalvane.9" target="_blank" rel="noopener noreferrer">
             <i class="ri-facebook-line"></i>
         </a>
-        <a href="www.linkedin.com/in/siphesihle-d-566061271" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/siphesihle-d-566061271/" target="_blank" rel="noopener noreferrer">
             <i class="ri-linkedin-line"></i>
         </a>
                      </div>
