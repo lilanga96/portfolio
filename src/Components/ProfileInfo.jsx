@@ -25,7 +25,7 @@ const Profile = () => {
         </a>
                      </div>
                      <div>
-      <a href="/cv.pdf" target="_blank" rel="noopener noreferrer">
+      <a href="./src/images/Siphesihle__Dyalvane.pdf" target="_blank" rel="noopener noreferrer">
         <button className='view-cv'>View CV</button>
       </a>
     </div>
