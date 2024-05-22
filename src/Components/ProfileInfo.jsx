@@ -5,7 +5,7 @@ const Profile = () => {
     return (
         <section id="profile" className="profile-section">
             <div className="profile-container animate__animated animate__slideInLeft">
-                <img src="/images/pro-picture.jpg" alt="Sihle" className="profile-picture" />
+                <img src="/src/images/pro-picture.jpg" alt="Sihle" className="profile-picture" />
                 <div className="profile-info">
                     <h2 className='fullname'>Siphesihle Dyalvane</h2>
                     <p>I am  a <span className="highlight">Front-End developer </span> I find pleasure in translating design concepts into
