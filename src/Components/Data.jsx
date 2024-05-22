@@ -2,7 +2,7 @@
 const projectsData = [
   {
       title: 'Podcast-app',
-      image:  '//images/books2.png',
+      image:  '/images/books2.png',
       liveLink: 'https://podcastshubb.netlify.app',
       githubLink: 'https://github.com/lilanga96/podcasts'
   },
